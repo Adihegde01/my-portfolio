@@ -1,0 +1,116 @@
+.projects-section {
+  padding-bottom: 50px;
+}
+
+.project-category {
+  margin-bottom: 4rem;
+}
+
+.category-title {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  padding: 2.5rem;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: rgba(15, 23, 42, 0.2);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(148, 163, 184, 0.05);
+  border-left: 3px solid var(--primary-accent);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  background: rgba(15, 23, 42, 0.3);
+  border-color: rgba(56, 189, 248, 0.2);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+}
+
+.project-header h3 {
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  line-height: 1.2;
+  font-family: var(--font-display);
+}
+
+.project-links {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.project-links a {
+  color: var(--text-secondary);
+  transition: color 0.3s;
+}
+
+.project-links a:hover {
+  color: var(--primary-accent);
+}
+
+.project-desc {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.project-highlights {
+  list-style: none;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.project-highlights li {
+  position: relative;
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+.project-highlights li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  color: var(--primary-accent);
+  font-size: 0.7rem;
+}
+
+.project-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tool {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--primary-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(56, 189, 248, 0.05);
+  padding: 0.25rem 0.7rem;
+  border-radius: 4px;
+  border: 1px solid rgba(56, 189, 248, 0.1);
+}
