@@ -86,15 +86,15 @@ const Hero = () => {
               transition={{ delay: 0.7 }}
             >
               <div>
-                <p className="text-3xl font-bold gradient-text">50+</p>
+                <p className="text-3xl font-bold gradient-text">5+</p>
                 <p className="text-sm text-dark-400">Projects</p>
               </div>
               <div>
-                <p className="text-3xl font-bold gradient-text">8+</p>
-                <p className="text-sm text-dark-400">Years</p>
+                <p className="text-3xl font-bold gradient-text">5</p>
+                <p className="text-sm text-dark-400">Months</p>
               </div>
               <div>
-                <p className="text-3xl font-bold gradient-text">30+</p>
+                <p className="text-3xl font-bold gradient-text">2+</p>
                 <p className="text-sm text-dark-400">Clients</p>
               </div>
             </motion.div>
