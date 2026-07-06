@@ -77,17 +77,7 @@ const config: Config = {
         '6xl': ['3.75rem', { lineHeight: '1' }],
         '7xl': ['4.5rem', { lineHeight: '1' }],
       },
-      spacing: {
-        'xs': '0.5rem',
-        'sm': '0.75rem',
-        'md': '1rem',
-        'lg': '1.5rem',
-        'xl': '2rem',
-        '2xl': '2.5rem',
-        '3xl': '3rem',
-        '4xl': '4rem',
-        '5xl': '5rem',
-      },
+
       borderRadius: {
         'xs': '0.25rem',
         'sm': '0.375rem',
