@@ -18,34 +18,6 @@ const experiences = [
       'Enterprise solution architecture',
     ],
   },
-  {
-    role: 'Senior Developer',
-    company: 'Tech Solutions Pvt Ltd',
-    duration: '2020 - 2023',
-    type: 'Full-time',
-    achievements: [
-      'Led team of 5 developers',
-      'CRM system implementation',
-      'Performance optimization',
-      'Code review and mentoring',
-      'Project management',
-      'Client communication',
-    ],
-  },
-  {
-    role: 'Junior Developer',
-    company: 'StartUp Inc',
-    duration: '2019 - 2020',
-    type: 'Full-time',
-    achievements: [
-      'Web application development',
-      'Database design',
-      'API integration',
-      'Bug fixing and maintenance',
-      'Documentation',
-      'Testing and QA',
-    ],
-  },
 ]
 
 const Experience = () => {
